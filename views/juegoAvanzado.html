@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Juego del Ahorcado hecho con JavaScript.">
+    <title>El Ahorcado - Avanzado</title>
+    <link rel="icon" href="assets/img/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    <body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen">
+        <h1 class="text-3xl font-bold mb-4 text-rose-800/70">EL AHORCADO - Nivel Avanzado</h1>
+         <div class="border border-gray-200 shadow p-2">
+            <div class="bg-white p-4 flex items-center justify-center flex-col gap-6 w-[800px]">
+                <div class="border-4 border-gray-200 p-2 rounded-md">
+                    <div class="p-4 flex items-center justify-around w-[400px]">
+                        <div class="flex flex-col gap-2 items-center">
+                            <span>Tiempo:</span>
+                            <div id="temporizador">30s</div>
+                        </div>
+                        <div class="flex flex-col gap-2 items-center">
+                            <span>Errores permitidos:</span>
+                            <div id="errores">6</div>
+                        </div>
+                        <div class="flex flex-col gap-2 items-center">
+                            <span>Ronda</span>
+                             <div id="ronda"> 1</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex  flex-col gap-1 items-center justify-center">
+                    <span class="text-gray-700">Adivina la palabra</span>
+                     <span id="palabra" class="font-mono text-2xl tracking-widest">_ _ _ _ _</span>
+                </div>
+                <div class="flex  flex-col gap-1 items-center justify-center border border-gray-200 rounded-md p-4">
+                    <span class="text-gray-700">Letras usadas</span>
+                    <span id="letrasUsadas" class="font-mono text-2xl tracking-widest"></span>
+                </div>
+             
+                <div class="flex items-center justify-center gap-6">
+                    <button id="btnTerminar" class="bg-rose-800/80 hover:bg-rose-800 text-white p-2 rounded-md w-[120px] flex items-center justify-center gap-2 group transition-all duration-300">
+                        <span class="text-lg transform transition-transform duration-300 ease-in-out group-hover:scale-105">Terminar</span>
+                    </button>
+                    <button id="btnSalir" class="bg-rose-800/80 hover:bg-rose-800 text-white p-2 rounded-md w-[120px] flex items-center justify-center gap-2 group transition-all duration-300">
+                        <span class="text-lg transform transition-transform duration-300 ease-in-out group-hover:scale-105">Salir</span>
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+        <script src="../data/constantesAvanzadas.js"></script>
+        <script src="../services/juegoAvanzado.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Juego del Ahorcado hecho con JavaScript.">
+    <title>El Ahorcado - resultados</title>
+    <link rel="icon" href="assets/img/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    
+    </head>
+    <body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen">
+        <h1 class="text-3xl font-bold mb-4 text-rose-800/70">EL AHORCADO - RESULTADOS</h1>
+        <div class="border border-gray-200 shadow p-2">
+            <div class="bg-white p-4 flex items-center justify-center flex-col gap-5">
+                <span class="mb-2">RESULTADOS</span>
+                <div id="mostrarResultados">
+
+                </div>
+        
+            </div>
+            
+        </div>
+        <div class="flex items-center justify-center gap-2 mt-4">
+            <button id="salir" class="bg-rose-800/80 hover:bg-rose-800 text-white p-2 rounded-md w-[120px] flex items-center justify-center gap-2 group transition-all duration-300">
+                <span class="text-lg transform transition-transform duration-300 ease-in-out group-hover:scale-105">Salir</span>
+            </button>
+            <button id="reiniciar"  class="bg-rose-800/80 hover:bg-rose-800 text-white p-2 rounded-md w-[120px] flex items-center justify-center gap-2 group transition-all duration-300">
+                <span class="text-lg transform transition-transform duration-300 ease-in-out group-hover:scale-105">Reiniciar</span>
+            </button>
+         
+        </div>
+
+        <script src="../services/resultados.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Juego del Ahorcado hecho con JavaScript.">
+    <title>El Ahorcado - reglas</title>
+    <link rel="icon" href="assets/img/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    <body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen">
+        <h1 class="text-3xl font-bold mb-2 text-rose-800/70">EL AHORCADO</h1>
+        <div class="flex flex-col items-center justify-center gap-4 mt-4">
+            <div class="border border-gray-200 shadow p-2 ">
+                <div class="bg-white p-4 flex items-center justify-center flex-col gap-3">
+                    <div class="text-center w-[600px]">
+                        <span>Basado en el tradicional juego del ahorcado, el objetivo de este juego es sencillo: ¡adivinar la plabra oculta letra por letra!
+
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="border border-gray-200 shadow p-2 w-[600px]">
+                <div class="bg-white p-4 flex items-center justify-center flex-col gap-3">
+                     <h1 class="text-xl font-bold mb-2 text-rose-800/70">REGLAS DEL JUEGO</h1>
+                    <div class="text-center w-[500px] ">
+                        <span>Hay tres niveles diferentes, cada uno de ellos tiene una dificultad única. La cantidad de letras de cada palabra está marcada por el número de  '_' que aparecen en pantalla.</span>
+                        
+                    </div>
+
+                    <div class="text-center w-[500px] mt-2 mb-4">
+                        <ul class="list-disc list-inside text-gray-800 ">
+                            <li class="mb-2"><strong>Nivel Principiante:</strong> dispones de <strong>1 minuto</strong> para adivinar <strong>2 palabras</strong>. Puedes fallar hasta <strong>8 veces</strong>. Puedes pedir hasta <strong>2 pistas</strong>.</li>
+                            <li class="mb-2"><strong>Nivel Intermedio:</strong> dispones de <strong>50 segundos</strong> para adivinar <strong>5 palabras</strong>. Puedes fallar hasta <strong>6 veces</strong>.  Puedes pedir <strong>1 pista</strong>.</li>
+                            <li class="mb-2"><strong>Nivel Avanzado:</strong> dispones de <strong>30 segundos</strong> para adivinar <strong>7 palabras</strong>. Puedes fallar hasta <strong>6 veces</strong>. <strong>No puedes pedir pistas</strong>.</li>
+                        </ul>
+                    </div>
+                    <span class="font-medium">Elige el nivel que más te guste:</span>
+                    <div class="flex items-center justify-center gap-2 mb-4">
+                        <button id="principiante" class="bg-rose-800/80 hover:bg-rose-800 text-white p-2 rounded-md w-[120px] flex items-center justify-center gap-2 ">
+                            <span class="text-lg">Principiante</span>
+                        </button>
+                        <button id="intermedio"  class="bg-rose-800/80 hover:bg-rose-800 text-white p-2 rounded-md w-[120px] flex items-center justify-center gap-2">
+                            <span class="text-lg">Intermedio</span>
+                        </button>
+                        <button id="avanzado" class="bg-rose-800/80 hover:bg-rose-800 text-white p-2 rounded-md w-[120px] flex items-center justify-center gap-2 ">
+                            <span class="text-lg">Avanzado</span>
+                        </button>
+                    </div> 
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <script src="../services/reglas.js"></script>
+        
+    </body>
+</html>

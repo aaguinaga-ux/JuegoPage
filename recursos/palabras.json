@@ -1,0 +1,32 @@
+[   
+   {
+      "id":1,
+      "palabra" : "LAMPARA",
+      "ver": "L _ _ P _ R _"
+      
+   },
+   {
+      "id":2,
+      "palabra" : "DICCIONARIO",
+      "ver": "D _ _ _ _ O _ N _ _ _ O"
+      
+   },
+   {
+      "id":3,
+      "palabra" : "RADIO",
+      "ver": "_ A _ _ O"
+      
+   },
+   {
+      "id":4,
+      "palabra" : "PIRATAS",
+      "ver": "_ I _ _ T _ _"
+      
+   },
+   {
+      "id":5,
+      "palabra" : "TERMOMETRO",
+      "ver": "T _ _ M _ M _ T _ _"
+      
+   }
+]
