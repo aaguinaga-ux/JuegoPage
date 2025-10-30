@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   btnSalir.addEventListener("click", (event) => {
-     window.location.href = "login.html"; 
+     window.location.href = "index.html"; 
   });
 
 

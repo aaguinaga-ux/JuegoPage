@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   btnSalir.addEventListener("click", () => {
     localStorage.removeItem("resultadoJuego");
-    window.location.href = "login.html";
+    window.location.href = "../index.html";
   });
 });
 

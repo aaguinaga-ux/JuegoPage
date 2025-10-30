@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (usuarioValido) {
       alert(`Bienvenido, ${usuarioValido.nombre}!`);
-      window.location.href = "reglas.html";
+      window.location.href = "views/reglas.html";
     } else {
       alert("Usuario o contraseña incorrectos.");
     }
